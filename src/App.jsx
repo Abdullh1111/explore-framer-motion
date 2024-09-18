@@ -2,6 +2,7 @@ import { motion } from "framer-motion";
 import ProgressBar from "./ProgressBar";
 import Movediv from "./Movediv";
 import HoverEffect from "./HoveEffect";
+import Transition from "./Transition";
 function App() {
   return (
     <>
@@ -21,6 +22,7 @@ function App() {
       <Movediv></Movediv>
 
       <HoverEffect></HoverEffect>
+      <Transition></Transition>
       {/* <Isopen></Isopen> */}
     </>
   );

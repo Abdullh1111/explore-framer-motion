@@ -3,9 +3,9 @@ import { motion } from 'framer-motion';
 
 const HoverEffect = () => {
     return (
-        <motion.div whileHover={{scale:1.5,backgroundColor: 'green'}} transition={{duration:4}} className='mt-10 h-40 w-40 bg-red-600'>
-            
-        </motion.div>
+        <motion.button whileHover={{scale:1.1,backgroundColor: 'green'}} whileTap={{scale:0.8}} className='rounded-3xl py-2 px-4 text-white font-bold bg-green-900'>
+            click me
+        </motion.button>
     );
 };
 

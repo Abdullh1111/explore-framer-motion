@@ -5,10 +5,12 @@ import HoverEffect from "./HoveEffect";
 import Transition from "./Transition";
 import Sidebar from "./Sidebar";
 import Varients from "./Varients";
+import Dragable from "./Dragable";
 function App() {
   return (
     <div className="flex flex-col gap-10">
       <h1>my first animation project</h1>
+      <Dragable></Dragable>
       <Sidebar></Sidebar>
       <Varients></Varients>
       <ProgressBar></ProgressBar>

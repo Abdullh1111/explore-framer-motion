@@ -3,10 +3,14 @@ import ProgressBar from "./ProgressBar";
 import Movediv from "./Movediv";
 import HoverEffect from "./HoveEffect";
 import Transition from "./Transition";
+import Sidebar from "./Sidebar";
+import Varients from "./Varients";
 function App() {
   return (
-    <>
+    <div className="flex flex-col gap-10">
       <h1>my first animation project</h1>
+      <Sidebar></Sidebar>
+      <Varients></Varients>
       <ProgressBar></ProgressBar>
       <motion.div
         className="w-52 h-52 bg-green-500"
@@ -24,7 +28,7 @@ function App() {
       <HoverEffect></HoverEffect>
       <Transition></Transition>
       {/* <Isopen></Isopen> */}
-    </>
+    </div>
   );
 }
 
